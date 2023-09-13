@@ -1269,7 +1269,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# Hover Image
 --------------------------------------------------------------*/
 
 img.hoverImages {
@@ -1287,3 +1287,16 @@ img.hoverImages:hover {
 	cursor:pointer;
    	margin-top:0px;
 }
+
+/*--------------------------------------------------------------
+# Recaptcha
+--------------------------------------------------------------*/
+
+/* CSS */
+#g-recaptcha-response {
+  display: block !important;
+  position: absolute;
+  margin: -50px 0 0 0 !important;
+  z-index: -999999;
+  opacity: 0;
+  }
